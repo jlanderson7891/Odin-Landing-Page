@@ -1,0 +1,23 @@
+:root {
+    --dark: #1f2937;
+    --white: #f9faf8;
+    --greywhite: #e5e7eb;
+}
+
+nav h3 {
+    color: var(--white);
+    font-size: 24px;
+}
+
+header {
+    background-color: var(--dark);
+}
+
+.awesome h1 {
+    color: var(--white);
+    font-size: 48px;
+}
+
+.awesome p {
+    color: var(--greywhite);
+}
