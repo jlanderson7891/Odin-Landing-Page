@@ -164,9 +164,6 @@ blockquote {
   justify-content: end;
 }
 
-.bottom-cta {
-}
-
 .bottom-box {
   display: flex;
   flex-direction: row;
@@ -183,7 +180,6 @@ blockquote {
   flex-direction: column;
   justify-content: center;
   gap: 0;
-  padding 0;
   margin: auto;
   color: var(--white);
 }
@@ -200,16 +196,15 @@ blockquote {
 }
 
 .bottom-title h3 {
-    margin-bottom: -15px;
+  margin-bottom: -15px;
 }
 
 footer {
- display: flex;
- background-color: var(--dark);
-    color: var(--white);
-    font-size: 12px;
-    height: 60px;
-    justify-content: center;
-    align-items: center;
-    
+  display: flex;
+  background-color: var(--dark);
+  color: var(--white);
+  font-size: 12px;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
 }
