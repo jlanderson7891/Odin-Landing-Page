@@ -170,12 +170,22 @@ blockquote {
 .bottom-box {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
   background-color: #3882f6;
+  margin: 5%;
+  border-radius: 10px;
+  padding: 5px 10px;
 }
 
-.button-title {
+.bottom-title {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0;
+  padding 0;
+  margin: auto;
+  color: var(--white);
 }
 
 .bottom-cta-btn {
@@ -187,4 +197,19 @@ blockquote {
 
 .accent-btn {
   border: 2px solid white;
+}
+
+.bottom-title h3 {
+    margin-bottom: -15px;
+}
+
+footer {
+ display: flex;
+ background-color: var(--dark);
+    color: var(--white);
+    font-size: 12px;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    
 }
